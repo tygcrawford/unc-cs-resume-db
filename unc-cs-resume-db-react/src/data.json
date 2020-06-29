@@ -1,0 +1,54 @@
+[
+    {
+        "id": "1",
+        "name": "Adam Winek",
+        "gradYear": 2022,
+        "skills": ["CSS", "JS", "HTML"]
+    },
+    {
+        "id": "2",
+        "name": "Jack GoldSmith",
+        "gradYear": 2023,
+
+        "skills": ["CSS", "JS", "HTML"]
+    },
+    {
+        "id": "3",
+        "name": "Joe Person",
+        "gradYear": 2020,
+        "skills": ["CSS", "JS", "HTML"]
+    },
+    {
+        "id": "4",
+        "name": "Maitreyi",
+        "gradYear": 2022,
+        "skills": ["CSS", "JS", "HTML"]
+    },
+    {
+        "id": "5",
+        "name": "Nikhil",
+        "gradYear": 2021,
+        "skills": ["CSS", "JS", "HTML"]
+    },
+    {
+        "id": "6",
+        "name": "Sai",
+        "gradYear": 2023,
+
+        "skills": ["CSS", "JS", "HTML"]
+    },
+    {
+        "id": "7",
+        "name": "Tucker",
+        "gradYear": 2022,
+        "skills": ["CSS", "JS", "HTML"]
+    },
+    {
+        "id": "8",
+        "name": "Eric",
+        "gradYear": 2022,
+        "skills": ["CSS", "JS", "HTML"]
+    }
+
+
+]
