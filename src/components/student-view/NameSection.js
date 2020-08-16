@@ -14,8 +14,8 @@ import { withFirebase } from "../Firebase";
 class NameSection extends Component {
   // function MyInformation(props) {
   constructor(props) {
-    this.Firebase = props.Firebase;
     super(props);
+    this.Firebase = props.Firebase;
     this.state = {
       fName: "",
       lName: "",
@@ -46,10 +46,9 @@ class NameSection extends Component {
           <Form.Label className="data-row-label" column lg={3}>
             Name
           </Form.Label>
-          {/* <Col className="formColumn"> */}
           <InputGroup className="mb-3 inputGroup">
             <FormControl
-              className="textForm"
+              className="textForm form-control-student"
               type="text"
               placeholder="First Name"
               onChange={(event) => {
@@ -57,7 +56,7 @@ class NameSection extends Component {
               }}
             />
             <FormControl
-              className="textForm"
+              className="textForm form-control-student"
               type="text"
               placeholder="Last Name"
               onChange={(event) => {
@@ -68,12 +67,6 @@ class NameSection extends Component {
               Update
             </Button>
           </InputGroup>
-          {/* <InputGroup.Append>
-              <Button variant="primary" type="submit">
-                Update
-              </Button>
-            </InputGroup.Append> */}
-          {/* </Col> */}
         </Form.Row>
       </Form>
     );

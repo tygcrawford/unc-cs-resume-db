@@ -8,7 +8,8 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 
 function MyLists(props) {
-
+    //outer most component for the MyLists Section
+    
 
     let listWrapper = null;
     if (props.myListsRecruiter !== null && props.myListsRecruiter !== undefined) {
@@ -17,14 +18,14 @@ function MyLists(props) {
     }
 
     return (
-        <div className="myListsBigOlDiv">
+        <div className="myListsContainerDiv">
             <div className="myListsArrowDiv" onClick={() => props.setMyListsToggle()}>
                 <ArrowForwardIcon className="myListsArrowIcon" />
 
             </div>
             <MyListsHeader updateRecruiter={() => props.updateRecruiter()} />
 
-            <div>
+            <div className="myListsScroll">
                 {listWrapper}
 
 
